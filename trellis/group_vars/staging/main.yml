@@ -11,4 +11,4 @@ project_pre_build_commands_local:
 project_local_files:
   - name: compiled theme assets
     src: "{{ project.local_path }}/web/app/themes/sage/dist"
-    dest: web/app/themes/sage
+    dest: "web/app/themes/sage"
