@@ -1,0 +1,6 @@
+# Not used. Vagrant generates its own hosts file automatically and uses it
+[web]
+127.0.0.1
+
+[development:children]
+web
