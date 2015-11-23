@@ -92,7 +92,7 @@ var cssTasks = function(filename) {
       return gulpif('*.scss', sass({
         outputStyle: 'nested', // libsass doesn't support expanded yet
         precision: 10,
-        includePaths: ['.'],
+        includePaths: ['./node_modules/compass-mixins/lib'],
         errLogToConsole: !enabled.failStyleTask
       }));
     })
@@ -100,6 +100,9 @@ var cssTasks = function(filename) {
     .pipe(autoprefixer, {
       browsers: [
         'last 2 versions',
+        'ie 8',
+        'ie 9',
+        'android 2.3',
         'android 4',
         'opera 12'
       ]

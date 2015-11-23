@@ -1,0 +1,1 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><style>.st0{fill:#3D3D3D;}</style><g id="Plus_6_"><path class="st0" d="M20 1.3c10.3 0 18.7 8.4 18.7 18.7S30.3 38.7 20 38.7 1.3 30.3 1.3 20 9.7 1.3 20 1.3M20 0C9 0 0 9 0 20s9 20 20 20 20-9 20-20S31 0 20 0z"/><path class="st0" d="M32 19.2H20.8V8h-1.6v11.2H8v1.6h11.2V32h1.6V20.8H32v-1.6z"/></g></svg>

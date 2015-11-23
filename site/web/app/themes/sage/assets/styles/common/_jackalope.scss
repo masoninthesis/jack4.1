@@ -1,0 +1,419 @@
+// ----------------------/
+/* Colors & Transitions */
+// ----------------------/
+
+/* Brand Colors */
+
+// Un-commnent to use extensive SASS color library
+$brand-primary:         #ff6c6a;
+// $brand-primary-light:   #6e7e8e;
+// $brand-primary-lighter: #a3a4a6;
+// $brand-primary-dark:    #32353c;
+//
+/* $brand-secondary:       #e56177; */
+// $brand-secondary-dark:  #47a447;
+
+$brand-magento: #d25280;
+$brand-purple: #761daa;
+$brand-blue: #00cff3;
+
+
+$dark-grey: #3d3d3d;
+$medium-grey: #696969;
+$light-grey: #acacac;
+
+$light-grey-bg: #f8f8f8;
+$input: #fffedf;
+
+
+
+// Un-comment this to use a beautiful gradient
+/* .radial-brand {
+ background-image: radial-gradient(at 50% top, rgba(255, 108, 106, 0.6) 0%, rgba(229, 97, 119, 0) 75%), radial-gradient(at right top, #d25280 0%, rgba(210, 82, 128, 0) 57%);
+ background-image: -webkit-radial-gradient(50% top, rgba(255, 108, 106, 0.6) 0%, rgba(229, 97, 119, 0) 75%), -webkit-radial-gradient(right top, #d25280 0%, rgba(210, 82, 128, 0) 57%);
+ background-repeat: no-repeat;
+} */
+
+/*  .gradient-stroke {
+  -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat;
+} */
+
+/* Transitions */
+
+// Un-comment this and install compass to enable CSS transitions (sassinated from: http://codepen.io/sawmac/pen/cayhK)
+// =transition($transition...)
+//     -moz-transition:    $transition
+//     -o-transition:      $transition
+//     -webkit-transition: $transition
+//     transition:         $transition
+// =transition-property($property...)
+//     -moz-transition-property:    $property
+//     -o-transition-property:      $property
+//     -webkit-transition-property: $property
+//     transition-property:         $property
+// =transition-duration($duration...)
+//     -moz-transition-property:    $duration
+//     -o-transition-property:      $duration
+//     -webkit-transition-property: $duration
+//     transition-property:         $duration
+// =transition-timing-function($timing...)
+//     -moz-transition-timing-function:    $timing
+//     -o-transition-timing-function:      $timing
+//     -webkit-transition-timing-function: $timing
+//     transition-timing-function:         $timing
+// =transition-delay($delay...)
+//     -moz-transition-delay:    $delay
+//     -o-transition-delay:      $delay
+//     -webkit-transition-delay: $delay
+//     transition-delay:         $delay
+//
+// a
+//   color: blue
+//   display: inline-block
+//   padding: 10px
+//   text-decoration: none
+//   background-color: orange
+//   border-radius: 4px
+//   +transition(background-color 1s .5s, color 2s)
+//   $hover
+//     color: red
+//     background-color: blue
+
+// Un-comment to use css transitions when hovering on colors
+// a
+//   color: $brand-secondary
+//   +secondary-color()
+// .primary-color
+//   +transition
+//   &:hover
+//     color: $brand-primary-dark
+//     text-decoration: none
+//
+// .secondary-color
+//   +transition
+//   &:hover
+//     color: $brand-secondary-dark
+//     text-decoration: none
+//
+// .primary-background
+//   +transition
+//   &:hover
+//     background: $brand-primary-dark
+//
+// .secondary-background
+//   +transition(1s)
+//   &:hover
+//     background: $brand-secondary-dark
+
+
+
+// --------------/
+/* Fonts & Typo */
+// --------------/
+
+/* Fonts */
+
+// Un-comment to import Google Fonts
+// @import url('http://fonts.googleapis.com/css?family=Bowlby+One+SC');
+// h2, h3 {
+//   font-family: 'Bowlby One SC';
+//   letter-spacing: 2px;
+// }
+
+
+// Uncomment this to use the SASS Version of one liner bulletproof SASS fonts – from: https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6
+// It should essentially output the below LESS, but with just this one line
+
+// SCSS Input:
+/* @include font-face("Proxima Nova", ../../../fonts/ProximaNova-Light); */
+// CSS Output:
+ @font-face {
+    font-family: "Proxima Nova";
+    src: url("../../dist/fonts/ProximaNova-Light.eot?") format("eot"),
+         url("../../dist/fonts/ProximaNova-Light.woff") format("woff"),
+         url("../../dist/fonts/ProximaNova-Light.ttf") format("truetype"),
+         url("../../dist/fonts/ProximaNova-Light.svg#ProximaNova-Light") format("svg");
+}
+// SCSS Input:
+/* @include font-face("Proxima Nova", ../../dist/fonts/ProximaNova-Bold, bold); */
+// CSS Output:
+@font-face {
+    font-family: "Proxima Nova";
+    font-weight: bold;
+    src: url("../../dist/fonts/ProximaNova-Bold.eot?") format("eot"),
+         url("../../dist/fonts/ProximaNova-Bold.woff") format("woff"),
+         url("../../dist/fonts/ProximaNova-Bold.ttf") format("truetype"),
+         url("../../dist/fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6, p, body, a {
+  font-family: 'Proxima Nova', /* $helvetica - bourbon */;
+  color: $dark-grey;
+  font-size: 18px;
+}
+
+h1 {
+  color: $brand-primary;
+  font-size: 36px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: light;
+}
+
+h2 {
+  color: $dark-grey;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-weight: light;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+h4 {
+  color: $medium-grey;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+}
+
+
+p {
+  color: #858585;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: light;
+  /* @media (min-width: $screen-sm-min) {
+    font-size: 18px;
+    line-height: 18px;
+  }*/
+}
+
+.p-sm {
+  font-size: 12px;
+  line-height: 12px;
+  color: $light-grey;
+  padding-top: 0px !important;
+}
+
+.p-md {
+  font-size: 15px;
+  line-height: 18px;
+  color: $light-grey;
+  padding-top: 18px;
+  text-align: center;
+}
+
+// ------------/
+/* Buttons */
+// ------------/
+
+a:focus, a:hover {
+    color: $brand-primary;
+    text-decoration: none;
+}
+
+.jack-btn1 {
+    color: $medium-grey;
+    border: 1px solid;
+    border-color: $brand-magento;
+    border-radius: 6px;
+    background: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+/*
+.jack-btn2 {
+    background-color: white;
+    width: 66%;
+    text-align: center;
+} */
+
+// ------------/
+/* Formatting */
+// ------------/
+
+// Un-comment this selector enable vertical centering
+// .vcenter {
+//     display: inline-block;
+//     vertical-align: middle;
+//     float: none;
+// }
+
+// Un-comment these selectors to enable verticle align
+// .table {
+//     width: 100%;
+//     height: 400px;
+//     display: table;
+// }
+// /* .table-cell {
+//     display: table-cell;
+//     vertical-align: middle;
+//     text-align: center;
+// }
+
+// Un-comment this to use the quick padding classes
+// .top-pad-lg() {
+//   padding-top: 62px;
+//   @media (min-width: $screen-md-min) {
+//     padding-top: 132px;
+//   }
+// }
+//
+// .top-pad-md() {
+//   padding-top: 46px;
+//   @media (min-width: $screen-md-min) {
+//     padding-top: 86px;
+//   }
+// }
+//
+// .bottom-pad($pad: 24px) {
+//   padding-bottom: $pad;
+// }
+
+// Un-comment this to use rounded-images
+// .border-radius ($radius: 6px) {
+//   -webkit-border-radius: $radius;
+//   -moz-border-radius:    $radius;
+//   border-radius:         $radius;
+//
+//   -moz-background-clip:    padding;
+//   -webkit-background-clip: padding-box;
+//   background-clip:         padding-box;
+// }
+
+
+// ----------------------/
+/* Media Queries */
+// ----------------------/
+
+// Un-comment this to enable specific display media queries
+// .no-lg {
+//   display: inherit;
+//   @media (min-width: $screen-lg-min) {
+//     display: none;
+//   }
+//   @media (min-width: 1600px) {
+//     display: inherit;
+//   }
+// }
+
+// ----------------------/
+/* Turn these into Partials: */
+// ----------------------/
+
+/* Clients */
+
+/* .brand-cred {
+  color: $dark-grey;
+} */
+
+/* Section1 */
+
+/* #section1 {
+  border-color: .radial-gradient?;
+  idk what I'm doing here ^
+
+  h2 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .white-box {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 33%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+
+  h4 {
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    font-weight: light;
+  }
+
+  .price {
+    font-size: 28px;
+    letter-spacing: 0.02em;
+  }
+
+  span {
+    font-size: 18px;
+  }
+} */
+
+/* Section2-4 */
+
+/* #section2 {
+
+  h5 {
+    color: $brand-magento;
+  }
+
+  .phase-one-grad { Uses bourbon library
+    @include linear-gradient(#1e5799, #2989d8);
+  }
+
+  #phase-bullets {
+    background-color: $light-grey;
+
+    p {
+      font-size: 15px;
+    }
+  }
+} */
+
+/* Contact */
+
+/* #contact {
+
+  h2 {
+    color: #fff;
+  }
+
+  h3 {
+    font-weight: light;
+  }
+
+  .jack-email {
+    color: $input;
+    width: 66%;
+  }
+
+  .phone-number {
+    font-size: 30px;
+  }
+
+  span {
+    color: $light-grey;
+  }
+} */
+
+/* Footer */
+
+/* .jackalogo-foot {
+  width: 50%;
+} */

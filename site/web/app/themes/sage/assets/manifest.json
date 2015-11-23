@@ -12,16 +12,11 @@
       ],
       "main": true
     },
-    "customizer.js": {
-      "files": [
-        "scripts/customizer.js"
-      ]
-    },
     "jquery.js": {
       "bower": ["jquery"]
     }
   },
   "config": {
-    "devUrl": "http://jackalopemedia.dev"
+    "devUrl": "http://jackalope.dev"
   }
 }

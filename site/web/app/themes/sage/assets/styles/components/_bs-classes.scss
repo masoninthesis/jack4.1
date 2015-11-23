@@ -1,0 +1,24 @@
+// ----------------------/
+/* Bootstrap Styles */
+// ----------------------/
+
+.panel-group .panel {
+    margin: 36px 0 48px;
+}
+
+.panel-default>.panel-heading {
+    color: $dark-grey;
+    background-color: white;
+    border-color: $light-grey;
+}
+
+.panel-title {
+  margin-top: 5px;
+  span {
+    font-weight: lighter;
+  }
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
