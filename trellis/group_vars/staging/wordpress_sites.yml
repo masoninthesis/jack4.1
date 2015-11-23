@@ -2,7 +2,7 @@
 wordpress_sites:
   jackalopemedia.com:
     site_hosts:
-      - 107.170.31.75
+      - jackalopemedia.com
     local_path: '../site' # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:masoninthesis/jack4.1
     branch: master
@@ -17,8 +17,8 @@ wordpress_sites:
       duration: 30s
     env:
       disable_wp_cron: true
-      wp_home: http://107.170.31.75
-      wp_siteurl: http://107.170.31.75/wp
+      wp_home: http://jackalopemedia.com
+      wp_siteurl: http://jackalopemedia.com/wp
       wp_env: staging
       db_name: example_staging
       db_user: example_dbuser
