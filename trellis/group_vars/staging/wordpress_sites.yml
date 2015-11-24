@@ -12,7 +12,7 @@ wordpress_sites:
       subdomains: false
     ssl:
       enabled: true
-      cert: ~/jackalopemedia.com.crt
+      cert: ~/jackalopemedia.com.chained.crt
       key: ~/jackalopemedia.com.key
     cache:
       enabled: false
