@@ -50,7 +50,8 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.1",
     "roots/soil": "^3.6",
-    "gravityforms/gravityforms": "1.9.14.25"
+    "gravityforms/gravityforms": "1.9.14.25",
+    "wpackagist-plugin/gravity-forms-stripe": "1.8.1"
   },
   "extra": {
     "installer-paths": {
