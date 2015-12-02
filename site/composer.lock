@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0bc1a642f5ac6efc158ed3d55f7924f4",
-    "content-hash": "932a51de2145eb1d0ba0cb63b8c5b013",
+    "hash": "412e299c0f323969f0a86a6e30ce732a",
+    "content-hash": "1df94a004cfc652ab0f4d26943fc2322",
     "packages": [
         {
             "name": "composer/installers",
@@ -293,6 +293,26 @@
                 "environment"
             ],
             "time": "2015-10-28 18:53:35"
+        },
+        {
+            "name": "wpackagist-plugin/gravity-forms-stripe",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/gravity-forms-stripe/",
+                "reference": "tags/1.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gravity-forms-stripe.1.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gravity-forms-stripe/"
         }
     ],
     "packages-dev": [],
