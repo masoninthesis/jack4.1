@@ -5,11 +5,11 @@
     <h2>Want to qualify for a 30-day free trial?</h2>
     <h3>Apply below, we’ll be in touch.</h3>
     <div class="text-center">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/form-placeholder.png" alt="" width="565" height="145" />
+        <?php gravity_form( 4, false, false, false, '', false ); ?>
     </div>
   </div>
   <div class="text-center">
-    <p class="phone-number"><span class="">P:</span>949.229.1569</p>
+    <!-- <p class="phone-number"><span class="">P:</span>949.229.1569</p> -->
   </div>
 
   <div class="faq container">
