@@ -239,12 +239,17 @@ a:focus, a:hover {
     display: block;
     margin: auto;
 }
-/*
+
 .jack-btn2 {
-    background-color: white;
-    width: 66%;
+    background: $brand-primary;
+    padding: 0 60px;
+    line-height: 50px;
     text-align: center;
-} */
+    color: white;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+}
 
 // ------------/
 /* Formatting */

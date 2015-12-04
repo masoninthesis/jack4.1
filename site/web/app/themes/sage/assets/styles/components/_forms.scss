@@ -13,3 +13,98 @@
   @extend .btn;
   @extend .btn-default;
 }
+
+// GRAVITY FORMS
+
+#gform_wrapper_1 {
+  width: 50%;
+  margin: auto;
+}
+
+.gform_wrapper span.ginput_total {
+    color: #4cae4c;
+    font-size: 2.2em;
+}
+
+label {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.gform_wrapper .ginput_complex label {
+  font-size: 0.675em;
+  color: $light-grey;
+}
+
+.ginput_container input {
+  border: 1px solid #dbdbdb;
+}
+
+.gform_wrapper span.ginput_product_price {
+    color: $brand-primary!important;
+}
+
+#gform_submit_button_1 {
+  background: $brand-primary!important;
+  padding: 2px 60px 0px 60px!important;
+  line-height: 50px!important;
+  text-align: center!important;
+  color: white!important;
+  border-radius: 6px!important;
+  display: block!important;
+  margin: 20px 0!important;
+  border: none;
+}
+
+.ginput_card_security_code_icon {
+  display: none!important;
+}
+
+// Bootstrap Gravity Forms
+
+.gform_wrapper ul {
+  @extend .list-unstyled;
+}
+.gform_wrapper li {
+  @extend .form-group;
+}
+.gform_wrapper form {
+  margin-bottom: 0;
+}
+.gform_wrapper .gfield_required {
+  padding-left: 1px;
+  color: $state-danger-text;
+}
+.ginput_container input,
+.ginput_container select,
+.ginput_container textarea {
+	@extend .form-control;
+}
+.ginput_container textarea {
+  height: auto;
+}
+.gform_button {
+	@extend .btn;
+	@extend .btn-primary;
+}
+.gform_wrapper .gfield_error {
+  .gfield_label {
+    color: $state-danger-text;
+  }
+  input,
+  select,
+  textarea {
+    border-color: $alert-danger-border;
+    background-color: $alert-danger-bg;
+    color: $alert-danger-text;
+    @include form-control-focus($alert-danger-text);
+  }
+}
+.validation_error {
+	@extend .alert;
+	@extend .alert-danger;
+}
+#gforms_confirmation_message {
+	@extend .alert;
+	@extend .alert-success;
+}

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "412e299c0f323969f0a86a6e30ce732a",
-    "content-hash": "1df94a004cfc652ab0f4d26943fc2322",
+    "hash": "ab22b3da32e8b46932283a377621b4de",
+    "content-hash": "cfa573cf94a87839019388d7d6d0eece",
     "packages": [
         {
             "name": "composer/installers",
@@ -111,6 +111,17 @@
             "dist": {
                 "type": "zip",
                 "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.14.28.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1448418439&Signature=4jQiGktcJn9xN6DHtaAf6%2BZDKT4%3D",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "gravityforms/gravityformsstripe",
+            "version": "1.9.4",
+            "dist": {
+                "type": "zip",
+                "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_1.9.4.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449342996&Signature=y8ChFxBluQTPMnY0u4wpWB5aBvU%3D",
                 "reference": null,
                 "shasum": null
             },
@@ -293,26 +304,6 @@
                 "environment"
             ],
             "time": "2015-10-28 18:53:35"
-        },
-        {
-            "name": "wpackagist-plugin/gravity-forms-stripe",
-            "version": "1.8.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/gravity-forms-stripe/",
-                "reference": "tags/1.8.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gravity-forms-stripe.1.8.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/gravity-forms-stripe/"
         }
     ],
     "packages-dev": [],
