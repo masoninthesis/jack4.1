@@ -4,7 +4,7 @@
   <div id="contact">
     <h2>Want to qualify for a 30-day free trial?</h2>
     <h3>Apply below, we’ll be in touch.</h3>
-    <div class="text-center">
+    <div class="text-center" id="mailchimp-sub">
         <?php gravity_form( 4, false, false, false, '', false ); ?>
     </div>
   </div>
