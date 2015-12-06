@@ -80,6 +80,7 @@ label {
     border-radius: 6px;
     display: block!important;
     margin: auto;
+    border: none;
 }
 
 .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
@@ -87,7 +88,24 @@ label {
 }
 
 .gform_submit_button_4 {
-  width: 100%;
+  width: 66%;
+}
+
+.input_4_1 {
+  margin: auto;
+}
+
+.gform_wrapper .top_label input.medium {
+    width: 66%;
+    height: 40px;
+}
+
+.comment-form input[type=text]:focus, .comment-form input[type=email]:focus, .comment-form input[type=url]:focus, .comment-form textarea:focus, .form-control:focus, .ginput_container input:focus, .ginput_container select:focus, .ginput_container textarea:focus, .search-form .search-field:focus {
+    border-color: #faebcc;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    background: #fcf8e3;
 }
 
 // Bootstrap Gravity Forms
