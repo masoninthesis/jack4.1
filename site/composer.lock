@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ab22b3da32e8b46932283a377621b4de",
-    "content-hash": "cfa573cf94a87839019388d7d6d0eece",
+    "hash": "1ee094ea63c1329dd12e931f2dad78b5",
+    "content-hash": "f4ad650d9cf2321c7d5c9008811dacdc",
     "packages": [
         {
             "name": "composer/installers",
@@ -117,11 +117,44 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "gravityforms/gravityformsmailchimp",
+            "version": "3.7.1",
+            "dist": {
+                "type": "zip",
+                "url": "http://s3.amazonaws.com/gravityforms/addons/mailchimp/gravityformsmailchimp_3.7.1.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449455465&Signature=ar0zQR5m2AbH2Hi7lG9V4VxceFQ%3D",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "gravityforms/gravityformsstripe",
             "version": "1.9.4",
             "dist": {
                 "type": "zip",
                 "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_1.9.4.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449342996&Signature=y8ChFxBluQTPMnY0u4wpWB5aBvU%3D",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "gravityforms/gravityformstwilio",
+            "version": "2.1.3",
+            "dist": {
+                "type": "zip",
+                "url": "http://s3.amazonaws.com/gravityforms/addons/twilio/gravityformstwilio_2.1.3.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449455465&Signature=rN29pPk8RKLUc61NLAWUVm1Yg7Q%3D",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "gravityforms/gravityformszapier",
+            "version": "1.8",
+            "dist": {
+                "type": "zip",
+                "url": "http://s3.amazonaws.com/gravityforms/addons/zapier/gravityformszapier_1.8.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449455465&Signature=sTxpeeitd5my4R6BUEauvEx4EAk%3D",
                 "reference": null,
                 "shasum": null
             },
