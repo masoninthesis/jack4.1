@@ -89,7 +89,6 @@ label {
 
 #gform_submit_button_4 {
   width: 66%;
-  margin: auto;
 }
 
 .input_4_1 {
@@ -97,11 +96,12 @@ label {
 }
 
 .gform_wrapper .top_label input.medium {
-    width: 66%;
+    width: 66%!important;
     height: 40px;
+    margin: auto;
 }
 
-.comment-form input[type=text]:focus, .comment-form input[type=email]:focus, .comment-form input[type=url]:focus, .comment-form textarea:focus, .form-control:focus, .ginput_container input:focus, .ginput_container select:focus, .ginput_container textarea:focus, .search-form .search-field:focus {
+#input_4_1 {
     border-color: #faebcc;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
