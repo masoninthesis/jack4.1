@@ -1,3 +1,6 @@
+/* ......... */
+/* Hero */
+/* ......... */
 #hero {
   .a-b-screens {
     margin-top: 136px;
@@ -7,7 +10,7 @@
     .st1 {
       fill: $brand-primary;
       stroke: none;
-      opacity: 1!important;
+      opacity: 1 !important;
     }
   }
   .guarantee {
@@ -26,6 +29,9 @@
     }
     svg {
       margin-top: 40px;
+    }
+    .st0 {
+      fill: $dark-grey!important;
     }
   }
 }
