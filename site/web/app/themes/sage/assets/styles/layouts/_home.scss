@@ -28,7 +28,7 @@
       margin-top: 100px;
     }
     svg {
-      margin-top: 40px;
+      margin: 40px -55px 0 0;
     }
     .st0 {
       fill: $dark-grey!important;
@@ -91,6 +91,10 @@
     }
     .tools {
       margin-bottom: 78px;
+      .st1 {
+        fill: $light-grey!important;
+        opacity: 1;
+      }
       .st2 {
         fill: $medium-grey;
       }
@@ -121,6 +125,9 @@
           }
           .st1 {
             fill: $brand-magento;
+          }
+          path {
+            opacity: 1;
           }
         }
         .user-centered, .variations {

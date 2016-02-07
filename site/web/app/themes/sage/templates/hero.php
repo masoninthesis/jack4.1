@@ -7,7 +7,7 @@
     <svg width="40" height="40"><?php get_template_part( 'assets/svg/inline', 'plus-sign.svg' ); ?></svg>
     <h2>Increased revenue,</h2>
     <h4>or your money back.</h4>
-    <p>If we fail to force-multiply your revenue <br>we’ll simply refund you.</p>
+    <!-- <p>If we fail to force-multiply your revenue <br>we’ll refund that .</p> -->
   </div>
   <div class="clients text-center">
     <p>We've worked with:</p>
