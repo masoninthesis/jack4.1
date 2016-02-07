@@ -1,0 +1,84 @@
+// Content wrapper
+.wrap { }
+
+// Main content area
+// .main {
+//   .make-sm-column(@main-sm-columns);
+//   .sidebar-primary & {
+//     .make-sm-column(@main-sm-columns - @sidebar-sm-columns);
+//   }
+// }
+
+// Posts Loop
+
+
+.entry-content, textarea {
+  max-width: 600px;
+  margin: auto;
+}
+
+time,.vcard, .logged-in-as, .comment-form-comment  {
+  margin-left: auto;
+  text-align: center;
+  display: block;
+}
+
+#reply-title {
+  margin-top: 100px;
+}
+
+.logged-in-as {
+  margin-bottom: 40px!important;
+}
+
+#comments {
+  .submit {
+    display: block;
+    margin: auto;
+  }
+}
+
+
+.vcard {
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 6px 0 14px;
+  a {
+    font-size: 12px;
+  }
+}
+//
+// .main {
+//   padding: 0;
+// }
+//
+// // modal
+// .modal {
+//   top: 20vh;
+// }
+//
+// .modal-content {
+//   background-color: #fff;
+// }
+//
+// .form-inline {
+//   .btn-sub {
+//     background: @brand-primary;
+//     margin-top: -1px;
+//     color: #fff;
+//   }
+// }
+//
+// .modal-form {
+//   padding-bottom: 24px;
+//   margin-top: -34px;
+//   form button {
+//     font-size: 14px;
+//     &:hover {
+//       .transition;
+//       background: @brand-primary-dark;
+//       color: white;
+//     }
+//   }
+// }

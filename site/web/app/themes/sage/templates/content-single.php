@@ -1,3 +1,7 @@
+<?php
+  do_action('get_header');
+  get_template_part('templates/nav');
+?>
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     <header>
