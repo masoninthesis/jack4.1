@@ -46,3 +46,18 @@
 .gform_wrapper input.ginput_quantity {
     display: inline-block;
 }
+
+// Featured Image
+
+.attachment-featured-img-thumb {
+  display: block;
+  width: 120%;
+  height: auto;
+  border-radius: 0px;
+  margin: 0 auto 40px -20px;
+  @media (min-width: $screen-sm-min) {
+    border-radius: 4px;
+    max-width: 100%;
+    margin: 0 auto 40px;
+  }
+}
