@@ -12,15 +12,31 @@
 // Posts Loop
 
 
-.entry-content, textarea {
+.entry-content, textarea, input {
   max-width: 600px;
   margin: auto;
 }
 
-time,.vcard, .logged-in-as, .comment-form-comment  {
+time,.vcard, .logged-in-as, .comment-form-author, .comment-form-email, .comment-form-url, .comment-form-comment  {
   margin-left: auto;
   text-align: center;
   display: block;
+  font-size: 15px;
+}
+
+.comment-notes {
+  color: $light-grey;
+  font-style: italic;
+  margin-left: auto;
+  text-align: center;
+  display: block;
+  font-size: 12px;
+}
+
+.comment-form-author, .comment-form-email {
+  label {
+    font-weight: 600;
+  }
 }
 
 #reply-title {

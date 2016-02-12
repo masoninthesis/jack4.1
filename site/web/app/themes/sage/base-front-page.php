@@ -19,11 +19,10 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/nav');
     ?>
 
-    <?php get_template_part('templates/hero'); ?>
+    <?php get_template_part('templates/homehero'); ?>
 
-    <?php get_template_part('templates/section1'); ?>
-    <?php get_template_part('templates/section2'); ?>
-    <?php get_template_part('templates/section3'); ?>
+
+    <?php get_template_part('templates/homesection1'); ?>
 
     <div class="wrap container" role="document">
       <div class="content row">
