@@ -35,7 +35,7 @@
       "type": "package",
       "package": {
         "name": "gravityforms/gravityforms",
-        "version": "1.9.14.25",
+        "version": "1.9.16.5",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -83,7 +83,7 @@
       "type": "package",
       "package": {
         "name": "gravityforms/gravityformsstripe",
-        "version": "1.9.4",
+        "version": "2.0.2",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
