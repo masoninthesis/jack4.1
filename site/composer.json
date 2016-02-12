@@ -39,7 +39,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.14.28.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1448418439&Signature=4jQiGktcJn9xN6DHtaAf6%2BZDKT4%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.5.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455400260&Signature=loRTmDcP%2BcFf5yAwdHT35Ww9xe0%3D"
         }
       }
     },
@@ -51,7 +51,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/mailchimp/gravityformsmailchimp_3.7.1.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449455465&Signature=ar0zQR5m2AbH2Hi7lG9V4VxceFQ%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/addons/mailchimp/gravityformsmailchimp_3.7.1.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455400333&Signature=8HeX3asP0jSApOQddwN6dvpnCvQ%3D"
         }
       }
     },
@@ -87,7 +87,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_1.9.4.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449342996&Signature=y8ChFxBluQTPMnY0u4wpWB5aBvU%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_2.0.2.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455400333&Signature=PpwxxjkwLfOASIQ8Gbg3rTsmvtY%3D"
         }
       }
     }
