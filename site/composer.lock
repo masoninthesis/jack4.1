@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "151b9fa54c856904b4b875e6a99a7752",
-    "content-hash": "ee8995397da9ccd4a015b4806cae17a0",
+    "hash": "cbcf6efb06fb978b87e19a1d34b09a0b",
+    "content-hash": "5c2b9ee78396b46e7c598e81cdeedac9",
     "packages": [
         {
             "name": "composer/installers",
@@ -107,10 +107,10 @@
         },
         {
             "name": "gravityforms/gravityforms",
-            "version": "1.9.14.25",
+            "version": "1.9.16.5",
             "dist": {
                 "type": "zip",
-                "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.14.28.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1448418439&Signature=4jQiGktcJn9xN6DHtaAf6%2BZDKT4%3D",
+                "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.5.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455669804&Signature=sNES%2BYzmQ1Www9oB64nUNlNfxE4%3D",
                 "reference": null,
                 "shasum": null
             },
@@ -129,10 +129,10 @@
         },
         {
             "name": "gravityforms/gravityformsstripe",
-            "version": "1.9.4",
+            "version": "2.0.2",
             "dist": {
                 "type": "zip",
-                "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_1.9.4.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449342996&Signature=y8ChFxBluQTPMnY0u4wpWB5aBvU%3D",
+                "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_2.0.2.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455669861&Signature=X53fetU4fz4Fev%2F26U6sjjxTyqk%3D",
                 "reference": null,
                 "shasum": null
             },
