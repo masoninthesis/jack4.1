@@ -39,7 +39,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.5.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455669804&Signature=sNES%2BYzmQ1Www9oB64nUNlNfxE4%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.5.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673955&Signature=lPqr0kE5ViNl9seQp5erI9QLJyc%3D"
         }
       }
     },
@@ -51,7 +51,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/mailchimp/gravityformsmailchimp_3.7.1.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455400333&Signature=8HeX3asP0jSApOQddwN6dvpnCvQ%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/addons/mailchimp/gravityformsmailchimp_3.7.1.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673861&Signature=p3XbHdTVwOihM3G0XMP31NH7UR4%3D"
         }
       }
     },
@@ -63,7 +63,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/zapier/gravityformszapier_1.8.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449455465&Signature=sTxpeeitd5my4R6BUEauvEx4EAk%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/addons/zapier/gravityformszapier_1.8.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673861&Signature=J2RmA54ItbwBO%2Bf1RXQDus0OzZM%3D"
         }
       }
     },
@@ -75,7 +75,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/twilio/gravityformstwilio_2.1.3.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1449455465&Signature=rN29pPk8RKLUc61NLAWUVm1Yg7Q%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/addons/twilio/gravityformstwilio_2.1.3.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673861&Signature=LAD5Tlr5S%2FhEpJIhkGx%2B5K8gBeM%3D"
         }
       }
     },
@@ -87,7 +87,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_2.0.2.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455669861&Signature=X53fetU4fz4Fev%2F26U6sjjxTyqk%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_2.0.2.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673861&Signature=poE27gEAFK4i0Kqg0O9idMk92Ts%3D"
         }
       }
     }
