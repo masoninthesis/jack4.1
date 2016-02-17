@@ -1,0 +1,9 @@
+.nav {
+  display: inline-flex;
+  float: right;
+  margin-top: -40px;
+}
+
+.nav>li>a:hover {
+    background-color: white!important;
+}

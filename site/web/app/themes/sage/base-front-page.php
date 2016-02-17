@@ -23,6 +23,7 @@ use Roots\Sage\Wrapper;
 
 
     <?php get_template_part('templates/homesection1'); ?>
+    <?php get_template_part('templates/homesection2'); ?>
 
     <div class="wrap container" role="document">
       <div class="content row">
