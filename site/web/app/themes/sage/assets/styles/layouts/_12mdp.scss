@@ -39,6 +39,7 @@
 /* Section 1 */
 /* ......... */
 #section1 {
+  padding-bottom: 10px;
   background-color: $brand-primary;
   h2 {
     color: white;
@@ -49,7 +50,7 @@
   svg {
     border: 1px solid white;
     border-radius: 4px;
-    margin-bottom: 84px;
+    margin: 0 auto 84px;
     .st0 {
       fill: white;
     }
@@ -71,7 +72,8 @@
       margin-top: -8px;
     }
     .ph1-schedule {
-      margin-top: 84px;
+      margin: 84px auto;
+      padding: 20px;
       .st0 {
         fill: $brand-magento;
       }
@@ -157,7 +159,8 @@
       margin-top: -8px;
     }
     .ph1-schedule {
-      margin-top: 84px;
+      margin: 84px auto;
+      padding: 20px;
       .st0 {
         fill: $brand-purple;
       }
@@ -230,7 +233,8 @@
       margin-top: -8px;
     }
     .ph1-schedule {
-      margin-top: 84px;
+      margin: 84px auto;
+      padding: 20px;
       path {
         fill: $brand-blue;
       }

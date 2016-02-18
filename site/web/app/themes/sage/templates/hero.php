@@ -11,7 +11,7 @@
   </div>
   <div class="clients text-center">
     <p>We've worked with:</p>
-    <svg width="1062" height="88"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg>
+    <svg width="1062" height="88" class="img-responsive"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg>
   </div>
 
 </div>
