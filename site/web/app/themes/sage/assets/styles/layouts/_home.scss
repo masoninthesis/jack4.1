@@ -2,32 +2,104 @@
 /* Hero */
 /* ......... */
 
+#hero {
+  .h-d-1 {
+    border: none;
+    border-radius: 4px;
+    max-width: 480px;
+    padding: 22px;
+    margin: 80px auto 0;
+    @media (min-width: $screen-sm-min) {
+      border: 0px solid #ff6c6a;
+    }
+  }
+  .h-h1-1 {
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    margin-bottom: -10px;
+    @media (min-width: $screen-sm-min) {
+      font-size: 30px;
+      color: #acacac;
+    }
+  }
+  .h-h1-2 {
+    font-size: 43px;
+    letter-spacing: 0.12em;
+    // color: #3d3d3d;
+    margin-bottom: -10px;
+    @media (min-width: $screen-sm-min) {
+      font-size: 86px;
+    }
+  }
+  .h-h5-1 {
+    letter-spacing: 0.045em;
+    font-size: 25px;
+    @media (min-width: $screen-sm-min) {
+      font-size: 50px;
+      // color: #ff6c6a;
+    }
+  }
+  .clients {
+    padding-bottom: 40px;
+  }
+}
+
 
 /* ......... */
 /* Section 1 */
 /* ......... */
 
-  .clients {
-    padding-bottom: 60px;
-  }
+
+
 
 .round-box-dark {
   border: 1px solid #303030;
   border-radius: 4px;
-  margin: 66px 0 84px;
+  margin: 66px auto 84px;
 }
 
 #team {
   background-color: $brand-primary;
+  padding: 32px;
   h5 {
-    padding-top: 46px;
-    font-size: 28px;
+    padding: 0 0 18px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.08em;
+    @media (min-width: $screen-sm-min) {
+      font-size: 28px;
+
+    }
+  }
+  p {
+    display: none;
+    font-weight: 400;
+    color: white;
+    padding: 18px 0 48px;
+    font-size: 15px;
+    @media (min-width: $screen-sm-min) {
+      display: inherit;
+    }
   }
 }
 
+
+
+
+/* ......... */
+/* Section 2 */
+/* ......... */
+
 #homesection2 {
   h5 {
-    padding-top: 46px;
+    // padding-top: 46px;
     font-size: 28px;
+  }
+  div {
+    margin: 66px auto 0;
+    display: block;
+  }
+  .our-process {
+    padding: 40px;
   }
 }
