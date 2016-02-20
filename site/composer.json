@@ -30,66 +30,6 @@
     {
       "type": "composer",
       "url": "http://wpackagist.org"
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "gravityforms/gravityforms",
-        "version": "1.9.16.5",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.5.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673955&Signature=lPqr0kE5ViNl9seQp5erI9QLJyc%3D"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "gravityforms/gravityformsmailchimp",
-        "version": "3.7.1",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/mailchimp/gravityformsmailchimp_3.7.1.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673861&Signature=p3XbHdTVwOihM3G0XMP31NH7UR4%3D"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "gravityforms/gravityformszapier",
-        "version": "1.8",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/zapier/gravityformszapier_1.8.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673861&Signature=J2RmA54ItbwBO%2Bf1RXQDus0OzZM%3D"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "gravityforms/gravityformstwilio",
-        "version": "2.1.3",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/twilio/gravityformstwilio_2.1.3.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673861&Signature=LAD5Tlr5S%2FhEpJIhkGx%2B5K8gBeM%3D"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "gravityforms/gravityformsstripe",
-        "version": "2.0.2",
-        "type": "wordpress-plugin",
-        "dist": {
-          "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_2.0.2.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1455673861&Signature=poE27gEAFK4i0Kqg0O9idMk92Ts%3D"
-        }
-      }
     }
   ],
   "require": {
@@ -97,12 +37,7 @@
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.1",
-    "roots/soil": "^3.6",
-    "gravityforms/gravityforms": "1.9.16.5",
-    "gravityforms/gravityformsmailchimp": "3.7.1",
-    "gravityforms/gravityformszapier": "1.8",
-    "gravityforms/gravityformstwilio": "2.1.3",
-    "gravityforms/gravityformsstripe": "2.0.2"
+    "roots/soil": "3.5.0"
   },
   "extra": {
     "installer-paths": {
