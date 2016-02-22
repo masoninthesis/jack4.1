@@ -2,7 +2,7 @@
   <!-- Contact -->
   <!--         -->
   <div id="team">
-    <a href="https://jackalopemedia.com/12-month-development-plan/"><h5 class="text-center">our team</h5></a>
+    <h5 class="text-center">our team</h5>
     <div class="row">
       <div class="col-xs-2">
         <center><a href="https://jackalopemedia.com/team/mason/"><img class="m-b img-circle img-responsive team-images" style="" src="http://jackalopemedia.com/app/uploads/2016/02/mason-lawlor.jpg">

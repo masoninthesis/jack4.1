@@ -50,6 +50,14 @@
 /* ......... */
 
 
+
+
+.round-box-dark {
+  border: 1px solid #303030;
+  border-radius: 4px;
+  margin: 66px auto 84px;
+}
+
 #team {
   background-color: $brand-primary;
   padding: 32px;
@@ -60,11 +68,8 @@
     letter-spacing: 0.08em;
     @media (min-width: $screen-sm-min) {
       font-size: 28px;
+
     }
-  }
-  .team-images {
-    width: 150px;
-    margin-bottom: 20px;
   }
   p {
     display: none;
@@ -96,10 +101,5 @@
   }
   .our-process {
     padding: 40px;
-  }
-  .round-box-dark {
-    border: 1px solid #303030;
-    border-radius: 4px;
-    margin: 66px auto 84px;
   }
 }

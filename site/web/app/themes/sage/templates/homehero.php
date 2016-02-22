@@ -4,7 +4,7 @@
   </div>
   <div class="h-d-1 text-center">
     <h1 class="h-h1-1 img-responsive">A Company made of</h1>
-    <a href="https://jackalopemedia.com/team/"><h1 class="h-h1-2 img-responsive"><strong>people</strong></h1></a>
+    <h1 class="h-h1-2 img-responsive"><strong>people</strong></h1>
     <div class="text-center">
       <h5 class="h-h5-1">and process</h5>
     </div>
