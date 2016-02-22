@@ -37,12 +37,7 @@
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.1",
-    "roots/soil": "^3.6",
-    "gravityforms/gravityforms": "1.9.16.5",
-    "gravityforms/gravityformsmailchimp": "3.7.1",
-    "gravityforms/gravityformszapier": "1.8",
-    "gravityforms/gravityformstwilio": "2.1.3",
-    "gravityforms/gravityformsstripe": "2.0.2"
+    "roots/soil": "3.5.0"
   },
   "extra": {
     "installer-paths": {
