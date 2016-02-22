@@ -3,7 +3,7 @@ wordpress_sites:
   jackalopemedia.com:
     site_hosts:
       - jackalopemedia.com
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: '../site' # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:masoninthesis/jack4.1
     branch: master
     subtree_path: site # relative path to your Bedrock/WP directory in your repo (above) if it is not the root (like the roots-example-project structure)
