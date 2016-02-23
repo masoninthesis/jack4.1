@@ -55,7 +55,7 @@
 .round-box-dark {
   border: 1px solid #303030;
   border-radius: 4px;
-  margin: 66px auto 84px;
+  margin: 26px auto 84px;
 }
 
 #team {
@@ -71,12 +71,27 @@
 
     }
   }
-  p {
+  img {
+    // max-width: 150px;
+  }
+  .name {
     display: none;
     font-weight: 400;
     color: white;
-    padding: 18px 0 48px;
+    padding: 18px 0 0;
     font-size: 15px;
+    @media (min-width: $screen-sm-min) {
+      display: inherit;
+    }
+  }
+  .title {
+    margin-top: -20px;
+    display: none;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    opacity: .66;
     @media (min-width: $screen-sm-min) {
       display: inherit;
     }
@@ -91,12 +106,12 @@
 /* ......... */
 
 #homesection2 {
-  h5 {
+  .our-process {
     // padding-top: 46px;
     font-size: 28px;
   }
   div {
-    margin: 66px auto 0;
+    margin: 0 auto;
     display: block;
   }
   .our-process {
