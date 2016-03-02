@@ -39,7 +39,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.8.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1457047252&Signature=YOx8CG%2BTSe4a3z%2FJo1yOstmTqCY%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.8.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1457048030&Signature=C9OzJLeyrL6j7LpFwKuO9iz5iyE%3D"
           }
         }
       },
