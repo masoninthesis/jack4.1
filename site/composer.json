@@ -35,11 +35,11 @@
       "type": "package",
       "package": {
         "name": "gravityforms/gravityforms",
-        "version": "1.9.16.7",
+        "version": "1.9.16.8",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.7.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1456267333&Signature=%2BviyizINva0ZKrHgHiOvTN2gwjs%3D"
+          "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.8.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1457047252&Signature=YOx8CG%2BTSe4a3z%2FJo1yOstmTqCY%3D"
           }
         }
       },
@@ -62,7 +62,8 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.1",
     "roots/soil": "3.6.2",
-    "gravityforms/gravityforms": "1.9.16.7"
+    "gravityforms/gravityforms": "1.9.16.8",
+    "gravityforms/gravityformsstripe": "2.0.4"
   },
   "extra": {
     "installer-paths": {
