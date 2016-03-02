@@ -40,9 +40,21 @@
         "dist": {
           "type": "zip",
           "url": "http://s3.amazonaws.com/gravityforms/releases/gravityforms_1.9.16.7.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1456267333&Signature=%2BviyizINva0ZKrHgHiOvTN2gwjs%3D"
-        }
+      }
+    }
+  },
+{
+      "type": "package",
+      "package": {
+        "name": "gravityforms/gravityformsstripe",
+        "version": "2.0.4",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "http://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_2.0.4.zip?AWSAccessKeyId=1603BBK66770VCSCJSG2&Expires=1457045458&Signature=5Of2ZjHmGONRcOKKi7XLG%2FWvJC8%3D"
+      }
+    }
   }
-}
   ],
   "require": {
     "php": ">=5.5",
