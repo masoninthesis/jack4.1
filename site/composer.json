@@ -34,6 +34,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:masoninthesis/gravityforms.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:masoninthesis/gravityformsstripe.git"
     }
   ],
   "require": {
@@ -42,7 +46,8 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.1",
     "roots/soil": "3.6.2",
-    "masoninthesis/gravityforms": "dev-master"
+    "masoninthesis/gravityforms": "dev-master",
+    "masoninthesis/gravityformsstripe": "dev-master"
   },
   "extra": {
     "installer-paths": {
