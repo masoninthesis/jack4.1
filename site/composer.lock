@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "76a821ae221b0862aa04f25ef849adda",
-    "content-hash": "6db19adcb95b76d1f274db5985123b31",
+    "hash": "8e356b34dceede5eec3a5b614c9f35fc",
+    "content-hash": "72dc41fdbbcb0f4c9ad12063f81b46ca",
     "packages": [
         {
             "name": "composer/installers",
@@ -223,6 +223,38 @@
             "time": "2016-03-03 01:58:13"
         },
         {
+            "name": "masoninthesis/gravityformsstripe",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masoninthesis/gravityformsstripe.git",
+                "reference": "251f0acb235c80bae5f43f27f4831b26ee5db594"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/masoninthesis/gravityformsstripe/zipball/251f0acb235c80bae5f43f27f4831b26ee5db594",
+                "reference": "251f0acb235c80bae5f43f27f4831b26ee5db594",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "gravityforms"
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Fork of GravityForms repo so we can use it in our composer architecture.",
+            "support": {
+                "source": "https://github.com/masoninthesis/gravityformsstripe/tree/master",
+                "issues": "https://github.com/masoninthesis/gravityformsstripe/issues"
+            },
+            "time": "2016-03-03 02:14:47"
+        },
+        {
             "name": "roots/soil",
             "version": "3.6.2",
             "source": {
@@ -320,7 +352,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "masoninthesis/gravityforms": 20
+        "masoninthesis/gravityforms": 20,
+        "masoninthesis/gravityformsstripe": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
