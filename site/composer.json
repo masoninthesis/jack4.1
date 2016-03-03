@@ -42,7 +42,7 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.3.1",
     "roots/soil": "3.6.2",
-    "masoninthesis/gravityforms": "1.9.16.8"
+    "masoninthesis/gravityforms": "dev-master"
   },
   "extra": {
     "installer-paths": {
