@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/masoninthesis/gravityformsstripe.git",
-                "reference": "251f0acb235c80bae5f43f27f4831b26ee5db594"
+                "reference": "25620764e9d87e6ec3e8e0c2ab044053844e5311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/masoninthesis/gravityformsstripe/zipball/251f0acb235c80bae5f43f27f4831b26ee5db594",
-                "reference": "251f0acb235c80bae5f43f27f4831b26ee5db594",
+                "url": "https://api.github.com/repos/masoninthesis/gravityformsstripe/zipball/25620764e9d87e6ec3e8e0c2ab044053844e5311",
+                "reference": "25620764e9d87e6ec3e8e0c2ab044053844e5311",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +242,7 @@
             },
             "type": "wordpress-plugin",
             "extra": {
-                "installer-name": "gravityforms"
+                "installer-name": "gravityformsstripe"
             },
             "license": [
                 "GPL-3.0"
@@ -252,7 +252,7 @@
                 "source": "https://github.com/masoninthesis/gravityformsstripe/tree/master",
                 "issues": "https://github.com/masoninthesis/gravityformsstripe/issues"
             },
-            "time": "2016-03-03 02:14:47"
+            "time": "2016-03-03 02:30:53"
         },
         {
             "name": "roots/soil",
