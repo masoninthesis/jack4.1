@@ -42,6 +42,27 @@
   .clients {
     padding-bottom: 40px;
   }
+
+}
+
+.lander-video {
+  margin: 32px;
+}
+
+.hero-bottom {
+  margin: 32px;
+}
+
+.team-img-bg {
+  background: $dark-grey;
+  border-radius: 50%;
+
+  img {
+    opacity: 1;
+    &:hover {
+      opacity: 0;
+    }
+  }
 }
 
 

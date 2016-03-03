@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8e356b34dceede5eec3a5b614c9f35fc",
-    "content-hash": "72dc41fdbbcb0f4c9ad12063f81b46ca",
+    "hash": "e10ac33d6d85b0bea324d6a93b7c1613",
+    "content-hash": "dc046d124b2aa9889e2b3f53f5049d50",
     "packages": [
         {
             "name": "composer/installers",
@@ -346,6 +346,26 @@
                 "environment"
             ],
             "time": "2015-12-29 15:10:30"
+        },
+        {
+            "name": "wpackagist-plugin/crazyegg-heatmap-tracking",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/crazyegg-heatmap-tracking/",
+                "reference": "tags/1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/crazyegg-heatmap-tracking.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/crazyegg-heatmap-tracking/"
         }
     ],
     "packages-dev": [],

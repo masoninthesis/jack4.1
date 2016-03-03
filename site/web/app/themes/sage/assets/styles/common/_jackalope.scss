@@ -8,10 +8,10 @@
 $brand-primary:         #ff6c6a;
 // $brand-primary-light:   #6e7e8e;
 // $brand-primary-lighter: #a3a4a6;
-// $brand-primary-dark:    #32353c;
+$brand-primary-dark:    #32353c;
 //
-/* $brand-secondary:       #e56177; */
-// $brand-secondary-dark:  #47a447;
+$brand-secondary:       #e56177;
+$brand-secondary-dark:  #47a447;
 
 $brand-magento: #d25280;
 $brand-purple: #761daa;
@@ -40,44 +40,46 @@ $input: #fffedf;
 
 /* Transitions */
 
-// Un-comment this and install compass to enable CSS transitions (sassinated from: http://codepen.io/sawmac/pen/cayhK)
-// =transition($transition...)
-//     -moz-transition:    $transition
-//     -o-transition:      $transition
-//     -webkit-transition: $transition
-//     transition:         $transition
-// =transition-property($property...)
-//     -moz-transition-property:    $property
-//     -o-transition-property:      $property
-//     -webkit-transition-property: $property
-//     transition-property:         $property
-// =transition-duration($duration...)
-//     -moz-transition-property:    $duration
-//     -o-transition-property:      $duration
-//     -webkit-transition-property: $duration
-//     transition-property:         $duration
-// =transition-timing-function($timing...)
-//     -moz-transition-timing-function:    $timing
-//     -o-transition-timing-function:      $timing
-//     -webkit-transition-timing-function: $timing
-//     transition-timing-function:         $timing
-// =transition-delay($delay...)
-//     -moz-transition-delay:    $delay
-//     -o-transition-delay:      $delay
-//     -webkit-transition-delay: $delay
-//     transition-delay:         $delay
+// Un-comment this to enable CSS transitions
+// .transition($transition: .5s) {
+//   -o-transition:$transition;
+//   -ms-transition:$transition;
+//   -moz-transition:$transition;
+//   -webkit-transition:$transition;
+//   transition:$transition;
+// }
 //
-// a
-//   color: blue
-//   display: inline-block
-//   padding: 10px
-//   text-decoration: none
-//   background-color: orange
-//   border-radius: 4px
-//   +transition(background-color 1s .5s, color 2s)
-//   $hover
-//     color: red
-//     background-color: blue
+// // Un-comment to use css transitions when hovering on colors
+// a {
+//   color: $brand-secondary;
+//   .secondary-color();
+// }
+// .primary-color {
+//   .transition;
+//   &:hover {
+//     color: $brand-primary-dark;
+//     text-decoration: none;
+//   }
+// }
+// .secondary-color {
+//   .transition;
+//   &:hover {
+//     color: $brand-secondary-dark;
+//     text-decoration: none;
+//   }
+// }
+// .primary-background {
+//   .transition;
+//   &:hover {
+//     background: $brand-primary-dark;
+//   }
+// }
+// .secondary-background {
+//   .transition(1s);
+//   &:hover {
+//     background: $brand-secondary-dark;
+//   }
+// }
 
 // Un-comment to use css transitions when hovering on colors
 // a
