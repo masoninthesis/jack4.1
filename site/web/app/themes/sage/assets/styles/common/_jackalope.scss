@@ -108,6 +108,24 @@ $input: #fffedf;
 //     background: $brand-secondary-dark
 
 
+@mixin trans($transDuration: 0.3s, $transProperty: all, $transAnimation: ease, $transDelay: 0s) {
+  transition: $transProperty $transDuration $transAnimation $transDelay;
+}
+
+// #hero {
+//   .team-img-bg {
+//     opacity: 1;
+//     &:hover {
+//       opacity: 0;
+//     }
+//   }
+//     &.test {
+//       @include trans(5s, background-color);
+//     }
+//   }
+// }
+
+
 
 // --------------/
 /* Fonts & Typo */

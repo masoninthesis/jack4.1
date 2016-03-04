@@ -53,17 +53,25 @@
   margin: 32px;
 }
 
-.team-img-bg {
-  background: $dark-grey;
-  border-radius: 50%;
-
+#team {
   img {
-    opacity: 1;
-    &:hover {
-      opacity: 0;
-    }
+    border:4px white solid ;
   }
 }
+
+// .team-img-tim {
+//   background: url(http://localhost:3000/app/themes/sage/assets/images/team/opti/timothy.jpg) 0 0 no-repeat fixed;
+//   background: $dark-grey;
+//   border: 5px #fff solid;
+//   border-radius: 50%;
+//
+//   img {
+//     opacity: 1;
+//     &:hover {
+//       opacity: 0;
+//     }
+//   }
+// }
 
 
 /* ......... */
