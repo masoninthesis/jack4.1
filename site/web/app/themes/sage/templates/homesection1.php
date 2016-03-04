@@ -13,7 +13,7 @@
       </a></center>
       </div>
       <div class="col-xs-2">
-        <center><a href="https://jackalopemedia.com/team/jeffrey/"><img class="m-b img-circle img-responsive team-images" style="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/opti/neil-larson.jpg">
+        <center><a href="https://jackalopemedia.com/team/neil/"><img class="m-b img-circle img-responsive team-images" style="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/opti/neil-larson.jpg">
           <ul class="list-unstyled">
             <li><p class="name">Neil</p></li>
             <li><p class="title">Director</p></li>
@@ -21,7 +21,7 @@
         </a></center>
       </div>
       <div class="col-xs-2">
-        <center><a href="https://jackalopemedia.com/team/michael/"><img class="m-b img-circle img-responsive team-images" style="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/opti/michael-collins.jpg">
+        <center><a href="https://jackalopemedia.com/team/mike/"><img class="m-b img-circle img-responsive team-images" style="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/opti/michael-collins.jpg">
           <ul class="list-unstyled">
             <li><p class="name">Mike</p></li>
             <li><p class="title">Copywriting</p></li>
@@ -37,7 +37,7 @@
         </a></center>
       </div>
       <div class="col-xs-2">
-        <center><a href="https://jackalopemedia.com/team/timothy/"><img class="m-b img-circle img-responsive team-images" style="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/opti/timothy.jpg">
+        <center><a href="https://jackalopemedia.com/team/tim/"><img class="m-b img-circle img-responsive team-images" style="" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/team/opti/timothy.jpg">
           <ul class="list-unstyled">
             <li><p class="name">Tim</p></li>
             <li><p class="title">Development</p></li>
