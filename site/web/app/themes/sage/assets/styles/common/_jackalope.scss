@@ -18,7 +18,7 @@ $brand-purple: #761daa;
 $brand-blue: #00cff3;
 
 
-$dark-grey: #3d3d3d;
+$dark-grey: #303030;
 $medium-grey: #696969;
 $light-grey: #acacac;
 
@@ -34,9 +34,13 @@ $input: #fffedf;
  background-repeat: no-repeat;
 } */
 
-/*  .gradient-stroke {
-  -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat;
-} */
+// .gradient-stroke-OG {
+//   -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#ff6c6a), to(#d25280), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat;
+// }
+
+.gradient-stroke-1 {
+  -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#ff6c6a), to(#d25280), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat;
+}
 
 /* Transitions */
 
@@ -275,43 +279,44 @@ a:focus, a:hover {
 /* Formatting */
 // ------------/
 
+.max-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
 // Un-comment this selector enable vertical centering
 // .vcenter {
 //     display: inline-block;
 //     vertical-align: middle;
 //     float: none;
 // }
-
-// Un-comment these selectors to enable verticle align
+//
+// // Un-comment these selectors to enable verticle align
 // .table {
 //     width: 100%;
 //     height: 400px;
 //     display: table;
 // }
-// /* .table-cell {
+// .table-cell {
 //     display: table-cell;
 //     vertical-align: middle;
 //     text-align: center;
 // }
-
-// Un-comment this to use the quick padding classes
-// .top-pad-lg() {
+//
+// // Un-comment this to use the quick padding classes
+// .top-pad-lg {
 //   padding-top: 62px;
 //   @media (min-width: $screen-md-min) {
 //     padding-top: 132px;
 //   }
 // }
 //
-// .top-pad-md() {
-//   padding-top: 46px;
-//   @media (min-width: $screen-md-min) {
-//     padding-top: 86px;
-//   }
-// }
-//
-// .bottom-pad($pad: 24px) {
-//   padding-bottom: $pad;
-// }
+.top-pad-md {
+  padding-top: 46px;
+  @media (min-width: $screen-md-min) {
+    padding-top: 86px;
+  }
+}
 
 // Un-comment this to use rounded-images
 // .border-radius ($radius: 6px) {

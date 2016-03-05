@@ -15,6 +15,8 @@
     <small>
       We create content that <br><strong>force-multiplies your ROI</strong>.
     </small>
-    <!-- <p>We've worked with:</p>
-    <svg class="img-responsive clients" style="width: 100%;"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg> -->
+    <!-- <p class="top-pad-md">We've worked with:</p> -->
+    <div class="max-container">
+      <svg class="img-responsive clients" style="width: 100%;"><?php get_template_part( 'assets/svg/inline', 'clients.svg' ); ?></svg>
+    </div>
   </div>

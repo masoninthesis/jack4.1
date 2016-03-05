@@ -39,10 +39,15 @@
       // color: #ff6c6a;
     }
   }
-  .clients {
-    padding-bottom: 40px;
+}
+.clients {
+  padding: 0;
+  @media (min-width: $screen-sm-min) {
+    padding: 12px 40px 0 30px;
   }
-
+}
+.clients-bg {
+  background: $brand-primary;
 }
 
 .lander-video {
@@ -53,10 +58,16 @@
   margin: 32px;
 }
 
-#team {
-  img {
-    border:4px white solid ;
-  }
+.team-images {
+    border-radius: 50%;
+    /* border: none; */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #ff6c6a 0%, #e56177 100%), linear-gradient(to right, #ff6c6a 0%, #e56177 100%);
+    border-left: 3px solid #ff6c6a;
+    border-right: 3px solid #e56177;
+    border-top: 3px solid #ff6c6a;
+    border-bottom: 3px solid #e56177;
+    margin-top: 20px;
 }
 
 // .team-img-tim {
@@ -82,23 +93,19 @@
 
 
 .round-box-dark {
-  border: 1px solid #303030;
+  border: 1px solid white;
   border-radius: 4px;
   margin: 26px auto 84px;
+  .st0, path {
+    fill: white;
+  }
+  .st1 {
+    opacity: 0;
+  }
 }
 
 #team {
-  background-color: $brand-primary;
   padding: 32px;
-  h5 {
-    padding: 0 0 18px;
-    font-size: 18px;
-    color: white;
-    letter-spacing: 0.08em;
-    @media (min-width: $screen-sm-min) {
-      font-size: 28px;
-
-    }
   }
   img {
     // max-width: 150px;
@@ -106,7 +113,7 @@
   .name {
     display: none;
     font-weight: 400;
-    color: white;
+    color: $dark-grey;
     padding: 18px 0 0;
     font-size: 15px;
     @media (min-width: $screen-sm-min) {
@@ -117,7 +124,7 @@
     margin-top: -20px;
     display: none;
     font-weight: 400;
-    color: white;
+    color: $brand-secondary;
     font-size: 12px;
     font-style: italic;
     opacity: .66;
@@ -125,8 +132,6 @@
       display: inherit;
     }
   }
-}
-
 
 
 
@@ -135,6 +140,7 @@
 /* ......... */
 
 #homesection2 {
+  background: linear-gradient(to top, #e56177, #ff6c6a);
   .our-process {
     // padding-top: 46px;
     font-size: 28px;
